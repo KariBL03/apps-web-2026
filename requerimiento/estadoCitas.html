@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal del Psicólogo - Control de Citas</title>
+</head>
+<body>
+
+    <img src="img/logoUPP.png" alt="Logo UPP" width="100">
+
+    <h1>Portal del Psicólogo</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Ayuda y Soporte</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <h2>Control de Citas</h2>
+    <p>Seleccione una cita y marque el estado de asistencia correspondiente.</p>
+
+    <form id="form-registro-estado" action="#" method="POST">
+        
+        <div>
+            <label for="id-cita">Seleccionar Cita:</label>
+            <select id="id-cita" name="id_cita" required>
+                <option value="" disabled selected>-- Seleccione una cita --</option>
+                <option value="101">Cita #101 - Estudiante: Carlos Gómez (10:00 hrs)</option>
+                <option value="102">Cita #102 - Estudiante: Ana Martínez (11:30 hrs)</option>
+                <option value="103">Cita #103 - Estudiante: Luis Fernández (16:00 hrs)</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="estado-cita">Estado de la Cita:</label>
+            <select id="estado-cita" name="estado_cita" required>
+                <option value="" disabled selected>-- Marque el estado --</option>
+                <option value="atendida">Atendida</option>
+                <option value="cancelada">Cancelada</option>
+                <option value="no_asistida">No asistida</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="observaciones">Observaciones (Opcional):</label><br>
+            <textarea id="observaciones" name="observaciones" rows="4" cols="40" placeholder="Ingrese notas adicionales si es necesario..."></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <button type="submit">Guardar Estado</button>
+            <button type="reset">Limpiar</button>
+        </div>
+
+    </form>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Universidad Politécnica de Pachuca — Portal Estudiantil. Todos los derechos reservados. 𑄝੭</p>
+    </footer>
+
+</body>
+</html>
