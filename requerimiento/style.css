@@ -1,0 +1,22 @@
+        .btn-purple {
+            background-color: #6f42c1;
+            color: #ffffff;
+            border: none;
+        }
+        .btn-purple:hover {
+            background-color: #59359a;
+            color: #ffffff;
+        }
+        .text-purple {
+            color: #6f42c1;
+        }
+        .nav-pills .nav-link.active {
+            background-color: #6f42c1;
+        }
+        .nav-pills .nav-link {
+            color: #6f42c1;
+        }
+        .form-select:focus, .form-control:focus {
+            border-color: #6f42c1;
+            box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25);
+        }
