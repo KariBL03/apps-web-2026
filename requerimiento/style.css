@@ -1,22 +1,63 @@
-        .btn-purple {
-            background-color: #6f42c1;
-            color: #ffffff;
+body {
+            font-family: 'Roboto', sans-serif;
+            color: #30364D;
+            background-color: #EEE9FF; /* Color Lavanda de fondo */
+        }
+
+        /* Colores MenteSana */
+        .text-purple-ms {
+            color: #9B7FEA;
+        }
+
+        .btn-blue-ms {
+            background-color: #5B8DEF;
+            color: #FFFFFF;
             border: none;
+            border-radius: 12px;
+            font-weight: 500;
         }
-        .btn-purple:hover {
-            background-color: #59359a;
-            color: #ffffff;
+
+        .btn-blue-ms:hover {
+            background-color: #4a7bdc;
+            color: #FFFFFF;
         }
-        .text-purple {
-            color: #6f42c1;
+
+        .btn-outline-ms {
+            border: 2px solid #9B7FEA;
+            color: #9B7FEA;
+            border-radius: 12px;
+            font-weight: 500;
         }
-        .nav-pills .nav-link.active {
-            background-color: #6f42c1;
+
+        .btn-outline-ms:hover {
+            background-color: #9B7FEA;
+            color: #FFFFFF;
         }
-        .nav-pills .nav-link {
-            color: #6f42c1;
+
+        /* Modificación de controles para enfocarse en color de MenteSana */
+        .form-select, .form-control {
+            border-radius: 8px;
+            border-color: #DCEEFF;
+            color: #30364D;
         }
+
         .form-select:focus, .form-control:focus {
-            border-color: #6f42c1;
-            box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.25);
+            border-color: #9B7FEA;
+            box-shadow: 0 0 0 0.25rem rgba(155, 127, 234, 0.25);
+        }
+
+        /* Navegación MenteSana */
+        .nav-pills .nav-link.active {
+            background-color: #9B7FEA;
+            border-radius: 12px;
+        }
+
+        .nav-pills .nav-link {
+            color: #5B8DEF;
+            font-weight: 500;
+        }
+
+        .card-mentesana {
+            border-radius: 12px;
+            border: none;
         }
